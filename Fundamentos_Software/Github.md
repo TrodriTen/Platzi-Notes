@@ -53,7 +53,7 @@
   + Es como normalmente se trabaja, la rama master se bloquea
   + Pull request es un estado intermedio entre el envio y el merge
   + Es una caracteristica de github
-  + Los revisa y confirma el DevOps
+  + Los revisa y confirma el DevOps (**code review**)
   + Hay dos ramas con diferencia, ir a github y ver las opciones de pull request
   + Opcion crear un pull request - añadir personas asignadas
   + Hacer el feedback del pull request (Revisar las opciones, son interesantes)
@@ -62,12 +62,61 @@
 
 <img src='../Images/GitAndGithubFlow.png'>
 
-## Archivos .gitignore
-
-  + Es una lista de archivos en la cual se deben omitir es decir que no se suben en el repositorio de github
-
 ## Github Pages
 
   + Hostear paginas estaticas
   + nombre_repositorio = nombre_repositorio.github.io
   + Settings en el repositorio en pages, Tomar el master Branch
+
+## Github Gists
+  
+  + Crear fragmentos de codigo con el fin de dialogar y hacer codereviews 
+  + Estos fragmentos no estan asociados a un repositorio
+  + `gist.github.com` $\longrightarrow$ Pair Programming o Configs
+
+## Github CodeSpaces
+
+  + Ambientes de desarrollo en nube
+  + Vienen ya con diferentes tipos de lenguajes, frameworks, etc
+
+## Github Settings
+
+### Plantillas
+
+  + Se pueden crear plantillas para los Issues, Pull Request, etc.
+  + Estas plantillas se incluyen en la carpeta `.github`
+  + Sirven para mejorar la experiencia
+
+### Archivos .gitignore
+
+  + Es una lista de archivos en la cual se deben omitir es decir que no se suben en el repositorio de github
+
+### Projects
+
+  + Es una herramienta que nos permite la organizacion y colaboracion entre developers en un repositorio
+
+### Tokens 
+
+  + Sirven para invitar a un colaborador de manera temporal a un repositorio privado
+  + Existen **Tokens Personalizados y Clasicos**
+  + Pasos
+    1.  Generar el token
+    2.  Copiar/Guardar el token
+    3.  Clonar el proyecto en local (Https o SSH)
+    4.  En la solicitud del password se coloca el token
+
+### Security
+
+  + Activar las opciones de Code Scanning & Secret Protecion con el fin de que github evalue si se relevan secretos en el repositorios (API keys).
+  + DependaBot $\longrightarrow$ Bot encargado de revisar las dependencias o paquetes del repositorio para asegurarse que no tengan vulnerabilidades. 
+
+### Actions
+
+  + Usadas en CI/CD
+
+> Ver el curso de [github actions](https://platzi.com/cursos/github-actions/)
+
+### Releases
+
+  + Son versiones de nuestro codigo
+  + Se crean en Github pero tambien existe este versionamiento desde Git con las tags

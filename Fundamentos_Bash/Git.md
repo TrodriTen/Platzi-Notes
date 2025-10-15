@@ -124,6 +124,7 @@
 - **git reset "commitA" --soft** (Devuelve todo el ambiente de trabajo al commitA eliminando todo pero dejando lo de staging)
 - **git reset --mixed** (Devuelve todo el ambiente de trabajo al working area)
 - **git reset HEAD** (Devuelve cambios de staging al working area)
+- **git revert "id_commit"** (Elimina el commit dado por parametro y devuelve el repositorio al commit anterior) 
 
 ### Configuracion de Git
 - **git config --list** (Muestra configuraciones de git en le sistema)
