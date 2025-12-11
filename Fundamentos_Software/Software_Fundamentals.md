@@ -45,6 +45,11 @@ Convierten los algoritmos en los lenguajes de maquina. Estos corren en la CPU de
 - `Boolean`: True o False
 - `Arrays`: Listas de datos multiples (Estructura de datos)
 
+### Variables
+
+- Las variables son aquellas que guardan los valores de algun tipo de dato en memoria (RAM)
+- Se crean con el fin de usarlas mas adelante en el mismo codigo
+
 ### Operadores
 
 #### Logicos
